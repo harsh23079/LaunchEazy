@@ -25,3 +25,33 @@ export const marketingCardInfo = [
       "Increase the lifetime value of your customers by enrolling them in discount, loyalty, referral, and nurture programs.",
   },
 ];
+
+export const marketingToolInfo = [
+  {
+    name: "Reputation Management",
+    description: "Improve online reputation and buisness listings.",
+    color: "#a1c4fb",
+  },
+  {
+    name: "Smart Inbox",
+    description:
+      "Manage customer conversations from every channel in a single, easy-to-use inbox.",
+    color: "#fec57b",
+  },
+  {
+    name: "Social Media Management",
+    description:
+      "Manage your social media profiles and paid ads from a single intuitive view.",
+    color: "#6fdd8c",
+  },
+  {
+    name: "Marketing Plan",
+    description: "Run your entire marketing on autopilot.",
+    color: "#ffb3b8",
+  },
+  {
+    name: "Unified Reporting",
+    description: "Track ROI on every dollar spend.",
+    color: "#e0e0e0",
+  },
+];

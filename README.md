@@ -14,35 +14,48 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-
 Header
- -img
- -3 drop down
- -2 link
- -button component
+-img
+-3 drop down
+-2 link
+-button component
 
 Live Section
- -live status
- -animated description with animated arrow
- -input component 
- -button component
+-live status
+-animated description with animated arrow
+-input component
+-button component
 
 Hero Section
 
-Marketing Recipes
- -frame 1
-  title
-  heading
-  paragraph
-  button
+Marketing Recipes Section
+-frame 1
+title
+heading
+paragraph
+button
 
- -frame 2
-  render 3 similar component
-    ->component
-      -image
-      -title
-      -heading
-      -description
-      -anchor tag
+-frame 2
+render 3 similar component
+->component
+-image
+-title
+-heading
+-description
+-anchor tag
 
+Value Section
 
+- 3 Title
+- 3 Values
+
+Marketing Tools Section
+
+-frame 1
+-title
+-animated rocket
+-description
+-mainButton
+
+-frame 2
+-scroll able 5 card

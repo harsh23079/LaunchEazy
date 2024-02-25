@@ -49,9 +49,9 @@ const LiveSection = () => {
             <path
               d="M9.89732 5.44488L15.1625 31.8258C15.7607 34.8232 19.7309 35.4279 21.3377 32.9743L25.8158 26.136C25.871 26.0517 25.9867 25.9736 26.1419 25.9682L34.5647 25.6732C37.5219 25.5697 39.0934 21.8836 36.632 19.8473L15.409 2.29C14.2029 1.29223 12.6704 1.3172 11.5517 1.93576C10.427 2.55765 9.58248 3.86735 9.89732 5.44488Z"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </g>
           <defs>
@@ -62,9 +62,9 @@ const LiveSection = () => {
               width="47.035"
               height="51.9929"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
