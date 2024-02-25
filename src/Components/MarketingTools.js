@@ -4,12 +4,12 @@ import { marketingToolInfo } from "../utils/constant";
 
 const MarketingTools = () => {
   return (
-    <div className="m-16 mb-0 flex gap-8 h-[640px] justify-between">
-      <div className="w-5/12 flex flex-col gap-10">
+    <div className="m-16 mb-0 flex gap-8 h-[640px] justify-between sm:flex-col sm:mx-4 sm:mt-14">
+      <div className="lg:w-5/12 md:w-5/12 flex flex-col gap-10 ">
         <div className="text-gray-500 uppercase">Marketing Tools</div>
-        <div className="text-5xl -mt-5">
+        <div className="text-5xl -mt-5 sm:text-4xl">
           Skyrocket{" "}
-          <span className="inline-block animate-bounce ml-2">🚀 </span>
+          <span className="inline-block  animate-bounce ml-2 sm:ml-0">🚀 </span>
           <br></br>
           your growth with advanced marketing tools
         </div>
@@ -17,11 +17,11 @@ const MarketingTools = () => {
           A library of ready-to -use marketing campaigns, workflows and program
           to accelerate your growth, maizmize savings and reduce efforts.
         </div>
-        <div></div>
+        <div className="sm:hidden"></div>
         <MainButton />
       </div>
-      <div className="overflow-hidden w-fit   ">
-        <div className="overflow-y-auto max-h-[640px] scrollbar-hide">
+      <div className="overflow-hidden w-fit">
+        <div className="overflow-y-auto max-h-[640px] scrollbar-hide ">
           {marketingToolInfo.map((data) => (
             <div
               key={data.name}

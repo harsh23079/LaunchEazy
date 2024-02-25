@@ -12,29 +12,31 @@ const LiveSection = () => {
     return () => clearInterval(intervalId);
   }, [HeroTitle.length]);
   return (
-    <div className="">
-      <div className="flex gap-2 border border-blue-300 rounded-full font-bold p-2  w-[420px]">
+    <div className="sm:mx-4">
+      <div className="flex  gap-2 sm:gap-1 border border-blue-300 rounded-full font-bold p-2 sm:p-1 md:w-[420px] sm:text-[.75rem] sm:w-full md:text-md">
         <div className="flex items-center gap-2">
           <span className="relative flex h-3 w-3">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
           </span>
-          <span className=" text-red-500 font-bold">Live</span>
+          <span className=" text-red-500 font-bold sm:hidden">Live</span>
         </div>
-        <div>
+        <div className=" ">
           Our exclusive beta is live.
           <a className="text-blue-400 cursor-pointer">
             &nbsp;Sign up for free {">"}
           </a>
         </div>
       </div>
-      <div className="mt-10">
-        <div className="text-7xl font-bold text-blue-400">
+      <div className="mt-10 sm:mt-5">
+        <div className="text-7xl font-bold text-blue-400 sm:text-4xl">
           {HeroTitle[heroTitleIndex]}
         </div>
-        <div className="text-7xl font-bold">in 3 clicks for your business</div>
+        <div className="text-7xl sm:text-4xl font-bold">
+          in 3 clicks for your business
+        </div>
         <svg
-          className="animate-bounce relative -top-1 left-[310px]"
+          className="animate-bounce relative -top-1 left-[310px] sm:hidden md:hidden"
           width="48"
           height="52"
           viewBox="0 0 48 52"
@@ -92,14 +94,14 @@ const LiveSection = () => {
             </filter>
           </defs>
         </svg>
-        <div className="mt-5 text-2xl">
+        <div className="mt-5 text-2xl sm:hidden">
           Simplify your marketing efforts with Al. Use a collection of
           ready-made, successful marketing<br></br> strategies that practically
           run themselves.
         </div>
       </div>
 
-      <div className="mt-5 flex gap-2">
+      <div className="mt-5 flex gap-2 sm:flex-col ">
         <div className="flex flex-col gap-4">
           <div className="">
             <input
@@ -109,16 +111,25 @@ const LiveSection = () => {
               className="border-2  p-2 w-full h-12 outline-none focus:outline-gray-400 rounded-lg"
             />
           </div>
-          <div className="text-gray-400">
+          <div className="text-gray-400 sm:hidden">
             Get access to a comprehensive directory of{" "}
             <a className="text-orange-400">Al Tools</a> and
             <br></br> <a className="text-green-500">ChatGPT Prompts</a> to
             elevate your business.
           </div>
         </div>
-        <div>
-          <MainButton />
+        <div className="">
+          {/* <MainButton /> */}
+          <button className="bg-black p-3 text-white  sm:w-full  rounded-lg hover:bg-gray-800 hover:shadow-lg hover:text-gray-200">
+            Join the waitlist
+          </button>
         </div>
+      </div>
+      <div className="text-gray-400 lg:hidden w-full md:hidden text-sm mt-4">
+        Get access to a comprehensive directory of{" "}
+        <span className="text-orange-400">Al Tools</span> and{" "}
+        <span className="text-green-500">ChatGPT Prompts</span> to elevate your
+        business.
       </div>
     </div>
   );

@@ -1,5 +1,3 @@
-import React from "react";
-
 const MarketingCard = (props) => {
   const { value } = props;
   const { img, name, title, description } = value;
@@ -16,7 +14,7 @@ const MarketingCard = (props) => {
         }}
       />
       <div className="p-4 flex flex-col justify-between lg:h-56 ">
-        <h3 className="text-sm font-semibold text-gray-400 ">{name}</h3>
+        <h3 className="text-sm font-semibold text-gray-400  ">{name}</h3>
         <h4 className="mt-2 text-lg font-bold">{title}</h4>
         <p className="mt-2 text-sm text-gray-400">{description}</p>
         <div>

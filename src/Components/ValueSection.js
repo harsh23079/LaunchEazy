@@ -2,9 +2,9 @@ import React from "react";
 
 const ValueSection = () => {
   return (
-    <div className="   m-20  ">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
-        <div>
+    <div className="  m-4 lg:m-20">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-8 items-center ">
+        <div className="flex lg:flex-col sm:flex-col">
           <h2 className="text-3xl font-bold text-gray-900">
             Accelerate growth.
           </h2>
@@ -31,9 +31,7 @@ const ValueSection = () => {
         </div>
 
         <div className="flex flex-col items-center p-6 bg-white rounded-lg border border-gray-200 shadow-md">
-          <div className="mb-2 text-5xl tracking-tight text-gray-900">
-            12
-          </div>
+          <div className="mb-2 text-5xl tracking-tight text-gray-900">12</div>
           <div className="font-normal text-gray-700">
             hours saved on marketing efforts weekly
           </div>

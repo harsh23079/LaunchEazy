@@ -2,6 +2,7 @@ import "./App.css";
 import Footer from "./Components/Footer";
 
 import Navbar from "./Components/Header";
+import HeroSection from "./Components/HeroSection";
 import InputField from "./Components/InputField";
 import LiveSection from "./Components/LiveSection";
 import MarketingRecipes from "./Components/MarketingRecipes";
@@ -17,7 +18,10 @@ function App() {
       <section className="ml-32 mt-10">
         <LiveSection />
       </section>
-      <section className="mx-10 mt-10 bg-[#FFF1F1] rounded-3xl p-5">
+      <section className="my-44 ">
+        <HeroSection />
+      </section>
+      <section className="mx-10 mt-20 bg-[#FFF1F1] rounded-3xl p-5">
         <MarketingRecipes />
       </section>
       <section className="ml-10 mr-10 mt-10">
