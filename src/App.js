@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Footer";
 
 import Navbar from "./Components/Header";
 import InputField from "./Components/InputField";
@@ -27,6 +28,9 @@ function App() {
       </section>
       <section>
         <InputField />
+      </section>
+      <section className=" bg-[#262626]">
+        <Footer />
       </section>
     </div>
   );

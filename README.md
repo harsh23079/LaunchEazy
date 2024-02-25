@@ -1,18 +1,16 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `npm start`
+for install packages and library  `npm install `
+for run `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
 
 Header
 -img
@@ -59,3 +57,32 @@ Marketing Tools Section
 
 -frame 2
 -scroll able 5 card
+
+Input Field Section
+-animated hand with description
+-input field 
+-button
+
+Footer Section
+
+frame 1
+ -div 1
+   -img
+   -p
+   -icon(link,face,insta,mail)
+ -div 2
+   grid 3
+
+frame 2
+  -div1 
+    icon with description
+
+  -div 2 
+    input field 
+    button
+    privacy statement
+
+frame 3
+ -hr
+ -div
+   div 2
