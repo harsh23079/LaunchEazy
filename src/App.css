@@ -6,3 +6,25 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@keyframes waveHand {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+
+.hand-animation {
+  animation: waveHand 1.3s ease-in-out infinite;
+  transform-origin: center bottom;
+  box-shadow: 15px;
+}
