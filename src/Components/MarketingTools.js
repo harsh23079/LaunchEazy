@@ -4,7 +4,7 @@ import { marketingToolInfo } from "../utils/constant";
 
 const MarketingTools = () => {
   return (
-    <div className="m-16 mb-0 flex gap-8 h-[640px] justify-between sm:flex-col sm:mx-4 sm:mt-14">
+    <div className="m-16 mb-0 lg:mb-16 flex gap-8 lg:h-[640px] justify-between sm:flex-col sm:mx-4 sm:mt-14 md:h-[800px]">
       <div className="lg:w-5/12 md:w-5/12 flex flex-col gap-10 ">
         <div className="text-gray-500 uppercase">Marketing Tools</div>
         <div className="text-5xl -mt-5 sm:text-4xl">
@@ -20,12 +20,12 @@ const MarketingTools = () => {
         <div className="sm:hidden"></div>
         <MainButton />
       </div>
-      <div className="overflow-hidden w-fit">
-        <div className="overflow-y-auto max-h-[640px] scrollbar-hide ">
+      <div className="overflow-hidden w-fit sm:w-[400px]">
+        <div className="overflow-y-auto sm:w-full max-h-[640px] scrollbar-hide  sm:overflow-x-auto sm:whitespace-nowrap">
           {marketingToolInfo.map((data) => (
             <div
               key={data.name}
-              className={`border p-5 h-[305px] rounded-2xl mb-5 ${
+              className={`border p-5 h-[305px] rounded-2xl mb-5 sm:inline-block sm:mr-4 ${
                 data.color === "#a1c4fb"
                   ? "bg-[#a1c4fb]"
                   : data.color === "#fec57b"

@@ -3,7 +3,7 @@ import MainButton from "./MainButton";
 import logo from "../assets/img/Logo.png";
 import dropdown from "../assets/img/dropdown.png";
 
-const Header = () => {
+const Header = ({ islive, setLive }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="border-b-2 p-2 ">
@@ -21,6 +21,9 @@ const Header = () => {
                 className={`fill-current h-7 w-7 hover:bg-slate-200   ${
                   isOpen ? "hidden" : "block"
                 }`}
+                onClick={() => {
+                  setLive(false);
+                }}
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -29,6 +32,9 @@ const Header = () => {
                 className={`fill-current h-7 w-7 ${
                   isOpen ? "block" : "hidden"
                 }`}
+                onClick={() => {
+                  setLive(true);
+                }}
                 viewBox="md:0 0 20 20 "
                 xmlns="http://www.w3.org/2000/svg"
               >

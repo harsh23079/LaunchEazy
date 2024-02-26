@@ -4,7 +4,7 @@ import { marketingCardInfo } from "../utils/constant";
 
 const MarketingRecipes = () => {
   return (
-    <div className="m-16 sm:mx-4 md:mx-6">
+    <div className="lg:mx-16 sm:mx-4 md:mx-6">
       <div className="flex flex-col gap-5 ">
         <div className="text-gray-400">MARKETING RECIPES</div>
         <div className="font-medium text-5xl sm:text-3xl">

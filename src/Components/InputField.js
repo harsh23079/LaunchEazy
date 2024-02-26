@@ -17,7 +17,7 @@ const InputField = () => {
           Say goodbye{" "}
           <img
             src={hello}
-            className="inline hand-animation -mx-3 sm:hidden md:h-16"
+            className="inline hand-animation -mx-3 sm:hidden md:h-12"
             alt="Hand waving"
           />{" "}
           to excessive spending<br></br> on designers, experts, and multiple
