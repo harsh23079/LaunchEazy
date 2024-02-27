@@ -28,3 +28,38 @@
   transform-origin: center bottom;
   box-shadow: 15px;
 }
+
+.button {
+/*     position: absolute; */
+/*     display: flex; */
+/*     padding:7px;
+    margin: 20px; */
+    background-color: red;
+  height:800px;
+  width:full;
+   transition: 1s;
+}
+
+.button > .popout {
+/*     visibility: hidden; */
+    /* position: relative; */
+    margin:20px;
+    padding: 2px;
+    margin-top:-60px;
+    /* background-color: blue; */
+    color: white;
+    transition: 1s;
+}
+.button:hover > .popout {
+    visibility: visible;
+    transform: translateY(20px);
+  transform: translateX(20px);
+   margin-top:20px;
+    
+}
+
+.main:hover >.button{
+   padding:4px;
+   transform: translateY(20px);
+  transform: translateX(20px);
+}
